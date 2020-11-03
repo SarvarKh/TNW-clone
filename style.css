@@ -12,6 +12,7 @@ a {
   text-decoration: none;
 }
 
+/* Navigation */
 .nav-top {
   display: none;
 }
@@ -41,14 +42,20 @@ a {
   border-left: 1px solid #aaa;
 }
 
-.main {
-  display: grid;
-  grid-template-columns: auto auto;
+
+/* Heading */
+.heading {
+  height: 75vh;
+  max-height: 560px;
+}
+.heading-one img {
+  width: 66.666%;
+  height: 40vh;
+  background-color: rgba(0, 0, 0, 0.25) url("assets/img/image-gradient.png") no-repeat;
 }
 
-.main-one {
-  background-image: n
-  
+.heading-two .part-1 {
+  height: 50%;
 }
 
 @media only screen and (min-width: 200px) {
@@ -126,4 +133,14 @@ a {
   .hidden:hover {
     display: block;
   }
+
+  /* .latest-news .container {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+  }
+  
+  .news-items figure img {
+    max-width: 250px;
+  } */
 }
