@@ -41,6 +41,16 @@ a {
   border-left: 1px solid #aaa;
 }
 
+.main {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.main-one {
+  background-image: n
+  
+}
+
 @media only screen and (min-width: 200px) {
   .nav-top {
     display: block;
@@ -91,7 +101,7 @@ a {
     display: inline-flex;
   }
   
-  .nav-bottom-text {
+  .nav-bottom .nav-bottom-text {
     display: flex;
     align-items: center;
   }
