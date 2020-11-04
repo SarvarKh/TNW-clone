@@ -193,7 +193,112 @@ section {
 }
 
 
+
+/* Latest funding rounds on Index.co  */
+.funding {
+  margin: 25px 0;
+}
+.funding-top {
+  color: #f42;
+}
+
+.funding-top h2 {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.funding-top ul {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+.funding-top ul a {
+  text-decoration: none;
+  color: #f42;
+  font-weight: lighter;
+}
+
+.funding-top ul li {
+  margin: 5px 0;
+}
+
+.funding-bottom-item {
+  margin-bottom: 15px;
+}
+
+.funding-bottom-item .top {
+  position: relative;
+  display: block;
+}
+
+.top .logo-1 {
+  background: url("/assets/img/index_01.jpg");
+}
+
+.top .logo-2 {
+  background: url("/assets/img/index_02.jpg");
+}
+
+.top .logo-3 {
+  background: url("/assets/img/index_03.jpg");
+}
+
+.top .logo-4 {
+  background: url("/assets/img/index_04.jpg");
+}
+
+.top .funding-logo {
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 60px;
+  width: 60px;
+  margin: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top h4 {
+  background-color: #f42;
+  color: #fff;
+  padding: 15px 0 15px 100px ;
+}
+
+.top > :last-child {
+  background-color: rgba(255,68,34,0.15);
+  padding: 15px 0 15px 100px ;
+}
+
+.top h6 {
+  color: grey;
+}
+
+.middle {
+  background-color: rgba(255,68,34,.05);
+  display: grid;
+  grid-template-rows: auto auto;
+  padding: 20px;
+  font-size: 14px;
+  border-bottom: 1px solid #f42;
+}
+
+.middle span {
+  color: grey;
+}
+
+.bottom {
+  background-color: rgba(255,68,34,.05);
+  padding: 20px;
+  font-size: 14px;
+  color: grey;
+}
+
+
+
 /* Topics */
+.topics .grid-container {
+  margin-bottom: 50px;
+}
 .grid-item > h3 {
   color: #f42;
   font-size: 2rem;
@@ -332,8 +437,79 @@ section {
 }
 
 
+/* Latest deals */
+.latest-deals .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: #f42;
+  padding: 20px 0;
+  font-size: 1rem;
+}
+
+.latest-deals .heading h3 {
+  font-size: 14px;
+}
+
+.deals-container .grid-items {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.cover1 {
+  background: url("/assets/img/deals_01.jpg");
+}
+
+.cover2 {
+  background: url("/assets/img/deals_02.jpg");
+}
+
+.cover3 {
+  background: url("/assets/img/deals_03.jpg");
+}
+
+.cover4 {
+  background: url("/assets/img/deals_04.jpg");
+}
+
+.cover5 {
+  background: url("/assets/img/deals_05.jpg");
+}
+
+.cover6 {
+  background: url("/assets/img/deals_06.png");
+}
+
+.cover7 {
+  background: url("/assets/img/deals_07.jpg");
+}
+
+.cover8 {
+  background: url("/assets/img/deals_08.jpg");
+}
+
+.deals-container .grid-items .cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 80px;
+  width: 80px;
+  grid-area: 1 / 1 / 2 span / 1 span;
+}
+
+.deals-container .grid-items p {
+  color: grey;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
 
 
+
+/* Mobile screen */
 @media only screen and (min-width: 600px) {
   .nav-top {
     display: block;
