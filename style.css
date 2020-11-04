@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Oswald', sans-serif;
 }
 
 ul {
@@ -44,10 +45,66 @@ a {
 
 /* Main */
 .main {
-  margin: 2px;
+  margin: 2px 15px;
 }
+
 /* Heading */
-.heading {
+.heading > div {
+  margin: 10px 0;
+}
+.heading-one {
+  background: url("/assets/img/Heading_01_international-space-station-1176518_1920-796x529.jpg");
+}
+
+.heading-cover p {
+  color: grey;
+}
+
+.heading-cover p i {
+  margin-left: 10px;
+}
+
+.heading-two > div {
+  margin: 10px 0;
+}
+
+.heading-two .part-1 {
+  background: url("/assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
+}
+
+.heading-two .part-1 h2 {
+  position: absolute;
+  height: 10%;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  bottom: 5%;
+  left: 5%;
+}
+
+.heading-two .part-2 {
+  background: url("/assets/img/Heading_03_tnw2020-feature_img-02.jpg");
+}
+
+.heading-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 300px;
+  position: relative;
+  color: #fff;
+}
+
+.heading .title {
+  position: absolute;
+  height: 30%;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  bottom: 5%;
+  left: 5%;
+}
+/* .heading {
   color: #fff;
 }
 
@@ -55,9 +112,7 @@ a {
   color: #fff;
 }
 
-.heading-one {
-  position: relative;
-}
+
 
 .heading-one :first-child {
   width: 100%;
@@ -72,15 +127,7 @@ a {
   display: none;
 }
 
-.heading-one .title {
-  position: absolute;
-  height: 30%;
-  font-size: 12px;
-  display: flex;
-  flex-direction: column;
-  bottom: 5%;
-  left: 5%;
-}
+
 
 .heading-one .title .flex-container {
   display: flex;
@@ -95,13 +142,11 @@ a {
 }
 
 
-.heading-two .part-1 img, .heading-two .part-2 img {
-  width: 100%;
-  height: 30vh;
+.heading-two .part-1 {
+  background: url("/assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
 }
-
-.heading-two .part-1, .heading-two .part-2 {
-  position: relative;
+.heading-two .part-2 {
+  background: url("/assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
 }
 
 .heading-two .part-1 h2 {
@@ -116,7 +161,149 @@ a {
 
 .title ul {
   list-style-type: none;
+} */
+
+
+/* Topics */
+.grid-item > h3 {
+  color: #f42;
+  font-size: 2rem;
+  padding: 10px;
+  font-weight: bold;
 }
+
+.grid-item .cover-1 {
+  background: url("/assets/img/main_01_01_Elon-Musk-candy-Wonka-hed.jpg");
+}
+
+.grid-item .cover-2 {
+  background: url("assets/img/main_02_01_Messenger-Image.jpg");
+}
+
+.grid-item .cover-3 {
+  background: url("/assets/img/main_03_01_header-image-macOS-big-sure-11.0.1.png");
+}
+
+.grid-item .cover-4 {
+  background: url("assets/img/main_04_01.png");
+}
+
+.grid-item .cover-5 {
+  background: url("assets/img/main_05_01.png");
+}
+
+.grid-item .cover-6 {
+  background: url("assets/img/main_06_01.png");
+}
+
+.grid-item .cover-7 {
+  background: url("assets/img/main_07_01.png");
+}
+
+.grid-item .cover-8 {
+  background: url("assets/img/main_08_01.jpg");
+}
+
+.grid-item .cover-9 {
+  background: url("assets/img/main_08_01.jpg");
+}
+
+.grid-item .cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 310px;
+  position: relative;
+}
+
+.cover-text {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.gradient {
+  background: linear-gradient(rgba(250, 250, 250, 0.1), black);
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item-sub-heading {
+  background-color: rgba(255,68,34,.06);
+  display: flex;
+  justify-content: space-between;
+  color: #f42;
+  align-items: center;
+}
+
+.grid-item-sub-heading .text {
+  padding-left: 10px;
+}
+
+.cover-sub-heading-1 {
+  background: url("/assets/img/main_01_intelamd-368x276.jpg");
+}
+
+.cover-sub-heading-2 {
+  background: url("/assets/img/main_02_Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
+}
+
+.cover-sub-heading-3 {
+  background: url("/assets/img/main_03_Snag_2a77832d-368x276.png");
+}
+
+.cover-sub-heading-4 {
+  background: url("/assets/img/main_04_image-7-6-368x276.png");
+}
+
+.cover-sub-heading-5 {
+  background: url("/assets/img/main_05.jpg");
+}
+
+.cover-sub-heading-6 {
+  background: url("/assets/img/main_06.png");
+}
+
+.cover-sub-heading-7 {
+  background: url("/assets/img/main_07.png");
+}
+
+.cover-sub-heading-8 {
+  background: url("/assets/img/main_08.jpg");
+}
+
+.cover-sub-heading-9 {
+  background: url("/assets/img/main_08.jpg");
+}
+
+
+.cover-sub-heading {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 96px;
+  width: 116px;
+  margin: 2px 0;
+}
+
+.grid-item-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #f42;
+}
+
+.grid-item-list ul li {
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+}
+
+.grid-item-list ul li a {
+  color: grey;
+}
+
+
+
 
 @media only screen and (min-width: 600px) {
   .nav-top {
