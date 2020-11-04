@@ -48,11 +48,6 @@ a {
 }
 /* Heading */
 .heading {
-  height: 75vh;
-  max-height: 560px;
-  display: grid;
-  grid-template-columns: 66.666% 33.333%;
-  grid-gap: 10px;
   color: #fff;
 }
 
@@ -66,33 +61,37 @@ a {
 
 .heading-one :first-child {
   width: 100%;
-  height: 60vh;
   position: relative;
 }
 
 .heading-one .logo img {
-  position: absolute;
-  width: 35%;
-  height: max-content;
-  top: 20px;
-  left: 20px;
+  display: none;
 }
 
 #date {
-  position: absolute;
-  width: 20rem;
-  height: max-content;
-  top: 20px;
-  right: 20px;
+  display: none;
 }
 
 .heading-one .title {
   position: absolute;
-  height: 10rem;
+  height: 30%;
+  font-size: 12px;
   display: flex;
   flex-direction: column;
-  bottom: 20px;
-  left: 20px;
+  bottom: 5%;
+  left: 5%;
+}
+
+.heading-one .title .flex-container {
+  display: flex;
+}
+
+.heading-one .title .flex-container :first-child {
+  width: max-content;
+}
+
+.heading-one .title .flex-container > div {
+  margin-right: 2.5%;
 }
 
 
@@ -119,7 +118,7 @@ a {
   list-style-type: none;
 }
 
-@media only screen and (min-width: 200px) {
+@media only screen and (min-width: 600px) {
   .nav-top {
     display: block;
   }
@@ -195,13 +194,76 @@ a {
     display: block;
   }
 
-  /* .latest-news .container {
-    display: grid;
-    grid-template-columns: repeat(4, auto);
-    grid-gap: 10px;
-  }
-  
-  .news-items figure img {
-    max-width: 250px;
-  } */
+  /* Heading */
+.heading {
+  height: 75vh;
+  max-height: 560px;
+  display: grid;
+  grid-template-columns: 66.666% 33.333%;
+  grid-gap: 10px;
+  color: #fff;
+}
+
+.heading ul li a {
+  color: #fff;
+}
+
+.heading-one {
+  position: relative;
+}
+
+.heading-one :first-child {
+  width: 100%;
+  height: 60vh;
+  position: relative;
+}
+
+.heading-one .logo img {
+  position: absolute;
+  width: 35%;
+  height: max-content;
+  top: 20px;
+  left: 20px;
+}
+
+#date {
+  position: absolute;
+  width: 20rem;
+  height: max-content;
+  top: 20px;
+  right: 20px;
+}
+
+.heading-one .title {
+  position: absolute;
+  height: 10rem;
+  display: flex;
+  flex-direction: column;
+  bottom: 20px;
+  left: 20px;
+}
+
+
+.heading-two .part-1 img, .heading-two .part-2 img {
+  width: 100%;
+  height: 30vh;
+}
+
+.heading-two .part-1, .heading-two .part-2 {
+  position: relative;
+}
+
+.heading-two .part-1 h2 {
+  position: absolute;
+  bottom: 20px;
+}
+
+.heading-two .part-2 .title {
+  position: absolute;
+  bottom: 20px;
+}
+
+.title ul {
+  list-style-type: none;
+}
 }
