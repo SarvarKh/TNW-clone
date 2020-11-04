@@ -14,36 +14,62 @@ a {
 }
 
 /* Navigation */
+header {
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+}
 .nav-top {
   display: none;
 }
 
 .nav-bottom {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa;
+  box-shadow: 1px 1px 5px grey;
 }
 
-.logo-nav img {
-  width: 106px;
+.logo-nav {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% auto;
+  position: relative;
+  width: 96px;
+  height: 100%;
   background-color: #000;
-  padding: 16px 20px;
+  padding: 10px 20px;
 }
 
 .nav-bottom .nav-bottom-text {
   display: none;
 }
 
-.nav-bottom-icon {
-  padding: 16px 20px;
+.nav-bottom-2 {
+  display: flex;
+}
+
+.nav-bottom-2-icon {
+  padding: 10px 20px;
   border-left: 1px solid #aaa;
 }
 
-.nav-icon {
-  padding: 16px 20px;
-  border-left: 1px solid #aaa;
+.fa-search {
+  color: #aaa;
+}
+
+.fa-bars {
+  color: #f42;
 }
 
 /* Main */
+section {
+  margin-top: 50px;
+}
+
 .main {
   margin: 2px 15px;
 }
@@ -52,6 +78,7 @@ a {
 .heading > div {
   margin: 10px 0;
 }
+
 .heading-one {
   background: url("/assets/img/Heading_01_international-space-station-1176518_1920-796x529.jpg");
 }
@@ -104,64 +131,66 @@ a {
   bottom: 5%;
   left: 5%;
 }
-/* .heading {
-  color: #fff;
+
+/* Latest News */
+.latest-news h2 {
+  color: #f42;
+  padding: 10px 0;
+  font-size: 2rem;
 }
 
-.heading ul li a {
-  color: #fff;
+.news-cover-1 {
+  background: url("/assets/img/news_01_image-9-3-516x270.png");
 }
 
+.news-cover-2 {
+  background: url("/assets/img/news_02_800px-CSIRO_ScienceImage_408_Cotton_Bearing_Cotton_Plant-e1604052065746-512x270.jpg");
+}
 
+.news-cover-3 {
+  background: url("/assets/img/news_03_crash-acronis-autonomous-car-ev-future-track-grassi-roborace-devbot-481x270.png");
+}
 
-.heading-one :first-child {
-  width: 100%;
+.news-cover-4 {
+  background: url("/assets/img/news_04_1-24-516x270.jpg");
+}
+
+.news-cover-5 {
+  background: url("/assets/img/news_05_image-7-6-516x270.png");
+}
+
+.news-cover-6 {
+  background: url("/assets/img/news_06_linkedin-linkedincels-byte-me-gq-516x270.png");
+}
+
+.news-cover-7 {
+  background: url("/assets/img/news_07_Screenshot-2020-10-30-at-11.47.57-AM-e1604038778477-513x270.png");
+}
+
+.news-cover-8 {
+  background: url("/assets/img/news_08_Snag_2a77832d-511x270.png");
+}
+
+.news-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px 100%;
+  height: 75px;
   position: relative;
+  grid-area: 1 / 1 / span 2 / span 1;
 }
 
-.heading-one .logo img {
-  display: none;
+.news-items {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-column-gap: 10px;
+  margin-bottom: 10px;
 }
 
-#date {
-  display: none;
+.news-items p {
+  color: #aaa;
+  font-size: 12px;
 }
-
-
-
-.heading-one .title .flex-container {
-  display: flex;
-}
-
-.heading-one .title .flex-container :first-child {
-  width: max-content;
-}
-
-.heading-one .title .flex-container > div {
-  margin-right: 2.5%;
-}
-
-
-.heading-two .part-1 {
-  background: url("/assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
-}
-.heading-two .part-2 {
-  background: url("/assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
-}
-
-.heading-two .part-1 h2 {
-  position: absolute;
-  bottom: 20px;
-}
-
-.heading-two .part-2 .title {
-  position: absolute;
-  bottom: 20px;
-}
-
-.title ul {
-  list-style-type: none;
-} */
 
 
 /* Topics */
