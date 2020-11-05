@@ -97,6 +97,7 @@ section {
 
 .heading-two .part-1 {
   background: url("/assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
+  background-size: 100% auto;
 }
 
 .heading-two .part-1 h2 {
@@ -111,12 +112,13 @@ section {
 
 .heading-two .part-2 {
   background: url("/assets/img/Heading_03_tnw2020-feature_img-02.jpg");
+  background-size: 100% auto;
 }
 
 .heading-cover {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto 100%;
+  background-size: 100% auto;
   height: 300px;
   position: relative;
   color: #fff;
@@ -345,7 +347,7 @@ section {
 .grid-item .cover {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto 100%;
+  background-size: auto auto;
   height: 310px;
   position: relative;
 }
@@ -549,6 +551,11 @@ footer ul li a {
   font-size: larger;
 }
 
+.footer-social-icons .footer-social-icons-menu {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
 .footer-rights {
   background-color: #000;
   display: flex;
@@ -559,9 +566,18 @@ footer ul li a {
 }
 
 
-
-/* Mobile screen */
 @media only screen and (min-width: 600px) {
+  .grid-item .cover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto auto;
+    height: 450px;
+    position: relative;
+  }
+}
+
+/* Tablet screen */
+@media only screen and (min-width: 800px) {
   .nav-top {
     display: block;
   }
@@ -637,76 +653,84 @@ footer ul li a {
     display: block;
   }
 
+  .nav-bottom-2 .nav-icon {
+    display: none;
+  }
+
   /* Heading */
-.heading {
-  height: 75vh;
-  max-height: 560px;
-  display: grid;
-  grid-template-columns: 66.666% 33.333%;
-  grid-gap: 10px;
-  color: #fff;
-}
+  .heading {
+    margin-top: 90px;
+  }
+  .heading-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 10px;
+  }
 
-.heading ul li a {
-  color: #fff;
-}
+  .heading-two .part-1, .heading-two .part-2 {
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+  }
 
-.heading-one {
-  position: relative;
-}
+  .heading-grid .heading-one {
+    height: 100%;
+    background-size: auto 100%;
+    margin: 0;
+  }
 
-.heading-one :first-child {
-  width: 100%;
-  height: 60vh;
-  position: relative;
-}
+  .heading-two > div {
+    margin: 0;
+  }
 
-.heading-one .logo img {
-  position: absolute;
-  width: 35%;
-  height: max-content;
-  top: 20px;
-  left: 20px;
-}
+  .heading-one .title {
+    height: 10%;
+  }
 
-#date {
-  position: absolute;
-  width: 20rem;
-  height: max-content;
-  top: 20px;
-  right: 20px;
-}
+  .heading-grid .heading-two {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 10px;
+  }
 
-.heading-one .title {
-  position: absolute;
-  height: 10rem;
-  display: flex;
-  flex-direction: column;
-  bottom: 20px;
-  left: 20px;
-}
+  .heading > div {
+    margin: 0;
+  }
 
 
-.heading-two .part-1 img, .heading-two .part-2 img {
-  width: 100%;
-  height: 30vh;
-}
 
-.heading-two .part-1, .heading-two .part-2 {
-  position: relative;
-}
+  /* Latest News */
+  .latest-news .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 10px;
+  }
 
-.heading-two .part-1 h2 {
-  position: absolute;
-  bottom: 20px;
-}
+  .latest-news .container .news-items {
+    display: flex;
+    flex-direction: column;
+  }
 
-.heading-two .part-2 .title {
-  position: absolute;
-  bottom: 20px;
-}
+  .latest-news .container .news-items > div {
+    background-size: 100% 100%;
+    height: 170px;
+  }
 
-.title ul {
-  list-style-type: none;
-}
+
+
+  /* Latest funding rounds on Index.co */
+  .funding .funding-top ul {
+    display: flex;
+  }
+
+  .funding-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+  }
+
+  .funding-bottom div:nth-child(4) {
+    display: none;
+  }
+
 }
