@@ -5,7 +5,7 @@ This is clone web-site of the TNW
 
 # RESPONSIVE WEB DESIGN
 
-![screenshot](assets/img/ScreenShot_of_main_page.jpg)
+![screenshot](ScreenShot_of_main_page.jpg)
 
 Additional description about the project and its features.
 
