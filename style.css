@@ -21,6 +21,7 @@ header {
   background-color: white;
   width: 100%;
 }
+
 .nav-top {
   display: none;
 }
@@ -100,6 +101,17 @@ section {
   background-size: 100% auto;
 }
 
+.latest-news h2 {
+  color: #f42;
+  padding: 10px 0;
+  font-size: 2rem;
+}
+
+.funding-top h2 {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
 .heading-two .part-1 h2 {
   position: absolute;
   height: 10%;
@@ -135,12 +147,6 @@ section {
 }
 
 /* Latest News */
-.latest-news h2 {
-  color: #f42;
-  padding: 10px 0;
-  font-size: 2rem;
-}
-
 .news-cover-1 {
   background: url("assets/img/news_01_image-9-3-516x270.png");
 }
@@ -194,24 +200,23 @@ section {
   font-size: 12px;
 }
 
-
-
 /* Latest funding rounds on Index.co  */
 .funding {
   margin: 25px 0;
 }
+
 .funding-top {
   color: #f42;
-}
-
-.funding-top h2 {
-  margin: 20px 0;
-  font-size: 2rem;
 }
 
 .funding-top ul {
   list-style-type: none;
   margin: 10px 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
 }
 
 .funding-top ul a {
@@ -263,12 +268,12 @@ section {
 .top h4 {
   background-color: #f42;
   color: #fff;
-  padding: 15px 0 15px 100px ;
+  padding: 15px 0 15px 100px;
 }
 
 .top > :last-child {
-  background-color: rgba(255,68,34,0.15);
-  padding: 15px 0 15px 100px ;
+  background-color: rgba(255, 68, 34, 0.15);
+  padding: 15px 0 15px 100px;
 }
 
 .top h6 {
@@ -276,7 +281,7 @@ section {
 }
 
 .middle {
-  background-color: rgba(255,68,34,.05);
+  background-color: rgba(255, 68, 34, 0.05);
   display: grid;
   grid-template-rows: auto auto;
   padding: 20px;
@@ -289,18 +294,17 @@ section {
 }
 
 .bottom {
-  background-color: rgba(255,68,34,.05);
+  background-color: rgba(255, 68, 34, 0.05);
   padding: 20px;
   font-size: 14px;
   color: grey;
 }
 
-
-
 /* Topics */
 .topics .grid-container {
   margin-bottom: 50px;
 }
+
 .grid-item > h3 {
   color: #f42;
   font-size: 2rem;
@@ -366,7 +370,7 @@ section {
 }
 
 .grid-item-sub-heading {
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, 0.06);
   display: flex;
   justify-content: space-between;
   color: #f42;
@@ -413,7 +417,6 @@ section {
   background: url("assets/img/main_08.jpg");
 }
 
-
 .cover-sub-heading {
   background-repeat: no-repeat;
   background-position: center;
@@ -437,7 +440,6 @@ section {
 .grid-item-list ul li a {
   color: grey;
 }
-
 
 /* Latest deals */
 .latest-deals .heading {
@@ -509,15 +511,9 @@ section {
   text-decoration: line-through;
 }
 
-
 /* Footer */
 footer {
   color: #aaa;
-}
-
-footer ul li a {
-  text-decoration: none;
-  color: #fff;
 }
 
 .footer-social-icons {
@@ -603,9 +599,18 @@ footer ul li a {
     justify-content: space-between;
     background-color: #131313;
   }
+    
+  .nav-bottom-text ul {
+    display: inline-flex;
+  }
   
   .nav-top nav ul {
     display: flex;
+  }
+    
+  .nav-bottom-text ul li {
+    margin: 0 10px;
+    text-transform: uppercase;
   }
   
   .nav-top nav ul li {
@@ -613,7 +618,7 @@ footer ul li a {
   }
   
   .nav-top li a {
-    color: hsla(0,0%,100%,.6);
+    color: hsla(0, 0% , 100%, 0.6);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
   }
@@ -638,21 +643,12 @@ footer ul li a {
     background-color: #000;
     padding: 16px 20px;
   }
-  
-  .nav-bottom-text ul {
-    display: inline-flex;
-  }
-  
+
   .nav-bottom .nav-bottom-text {
     display: flex;
     align-items: center;
   }
-  
-  .nav-bottom-text ul li {
-    margin: 0 10px;
-    text-transform: uppercase;
-  }
-  
+
   .nav-bottom-text ul li a {
     color: #aaa;
   }
@@ -677,6 +673,7 @@ footer ul li a {
   .heading {
     margin-top: 90px;
   }
+
   .heading-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -727,12 +724,14 @@ footer ul li a {
     flex-direction: column;
   }
 
+  .funding-bottom div:nth-child(4) {
+    display: none;
+  }
+
   .latest-news .container .news-items > div {
     background-size: 100% 100%;
     height: 170px;
   }
-
-
 
   /* Latest funding rounds on Index.co */
   .funding .funding-top ul {
@@ -743,10 +742,6 @@ footer ul li a {
     display: grid;
     grid-template-columns: repeat(3, auto);
     grid-gap: 10px;
-  }
-
-  .funding-bottom div:nth-child(4) {
-    display: none;
   }
 
   /* Topics */
@@ -760,7 +755,6 @@ footer ul li a {
     background-size: auto 100%;
     height: 300px;
   }
-
 
   /* Latest deals */
   .deals-container {
