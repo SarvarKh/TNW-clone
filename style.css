@@ -599,7 +599,7 @@ footer {
     justify-content: space-between;
     background-color: #131313;
   }
-  
+
   .nav-bottom-text ul {
     display: inline-flex;
   }
@@ -607,7 +607,7 @@ footer {
   .nav-top nav ul {
     display: flex;
   }
-  
+
   .nav-bottom-text ul li {
     margin: 0 10px;
     text-transform: uppercase;
