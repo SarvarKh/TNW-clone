@@ -5,9 +5,7 @@ This is clone web-site of the TNW
 
 # RESPONSIVE WEB DESIGN
 
-> This is my tnw clone website.
-
-![screenshot](index.png)
+![screenshot](assets/img/ScreenShot_of_main_page.jpg)
 
 Additional description about the project and its features.
 
@@ -17,12 +15,7 @@ Additional description about the project and its features.
 - CSS
 
 
-
 ## Getting Started
-
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
 
 To get a local copy up and running follow these simple example steps.
 
@@ -48,7 +41,12 @@ Web browser (Chrome/Firefox)
 👤 **ENEKWECHI CHINOSO GERALD**
 
 - GitHub: [@oxford-g](https://github.com/oxford-g)
-- Twitter: [@akinkunmi006](https://twitter.com/oxford2)
+- Twitter: [@oxford2](https://twitter.com/oxford2)
+
+👤 **Sarvar Khalimov**
+
+- GitHub: [@SarvarKh](https://github.com/SarvarKh)
+- LinkedIn: [@sarvar-khalimov](https://www.linkedin.com/in/sarvar-khalimov-208797143/)
 
 
 ## 🤝 Contributing

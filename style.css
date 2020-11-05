@@ -80,7 +80,7 @@ section {
 }
 
 .heading-one {
-  background: url("/assets/img/Heading_01_international-space-station-1176518_1920-796x529.jpg");
+  background: url("assets/img/Heading_01_international-space-station-1176518_1920-796x529.jpg");
 }
 
 .heading-cover p {
@@ -96,7 +96,7 @@ section {
 }
 
 .heading-two .part-1 {
-  background: url("/assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
+  background: url("assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
   background-size: 100% auto;
 }
 
@@ -111,7 +111,7 @@ section {
 }
 
 .heading-two .part-2 {
-  background: url("/assets/img/Heading_03_tnw2020-feature_img-02.jpg");
+  background: url("assets/img/Heading_03_tnw2020-feature_img-02.jpg");
   background-size: 100% auto;
 }
 
@@ -142,35 +142,35 @@ section {
 }
 
 .news-cover-1 {
-  background: url("/assets/img/news_01_image-9-3-516x270.png");
+  background: url("assets/img/news_01_image-9-3-516x270.png");
 }
 
 .news-cover-2 {
-  background: url("/assets/img/news_02_800px-CSIRO_ScienceImage_408_Cotton_Bearing_Cotton_Plant-e1604052065746-512x270.jpg");
+  background: url("assets/img/news_02_800px-CSIRO_ScienceImage_408_Cotton_Bearing_Cotton_Plant-e1604052065746-512x270.jpg");
 }
 
 .news-cover-3 {
-  background: url("/assets/img/news_03_crash-acronis-autonomous-car-ev-future-track-grassi-roborace-devbot-481x270.png");
+  background: url("assets/img/news_03_crash-acronis-autonomous-car-ev-future-track-grassi-roborace-devbot-481x270.png");
 }
 
 .news-cover-4 {
-  background: url("/assets/img/news_04_1-24-516x270.jpg");
+  background: url("assets/img/news_04_1-24-516x270.jpg");
 }
 
 .news-cover-5 {
-  background: url("/assets/img/news_05_image-7-6-516x270.png");
+  background: url("assets/img/news_05_image-7-6-516x270.png");
 }
 
 .news-cover-6 {
-  background: url("/assets/img/news_06_linkedin-linkedincels-byte-me-gq-516x270.png");
+  background: url("assets/img/news_06_linkedin-linkedincels-byte-me-gq-516x270.png");
 }
 
 .news-cover-7 {
-  background: url("/assets/img/news_07_Screenshot-2020-10-30-at-11.47.57-AM-e1604038778477-513x270.png");
+  background: url("assets/img/news_07_Screenshot-2020-10-30-at-11.47.57-AM-e1604038778477-513x270.png");
 }
 
 .news-cover-8 {
-  background: url("/assets/img/news_08_Snag_2a77832d-511x270.png");
+  background: url("assets/img/news_08_Snag_2a77832d-511x270.png");
 }
 
 .news-cover {
@@ -234,19 +234,19 @@ section {
 }
 
 .top .logo-1 {
-  background: url("/assets/img/index_01.jpg");
+  background: url("assets/img/index_01.jpg");
 }
 
 .top .logo-2 {
-  background: url("/assets/img/index_02.jpg");
+  background: url("assets/img/index_02.jpg");
 }
 
 .top .logo-3 {
-  background: url("/assets/img/index_03.jpg");
+  background: url("assets/img/index_03.jpg");
 }
 
 .top .logo-4 {
-  background: url("/assets/img/index_04.jpg");
+  background: url("assets/img/index_04.jpg");
 }
 
 .top .funding-logo {
@@ -309,7 +309,7 @@ section {
 }
 
 .grid-item .cover-1 {
-  background: url("/assets/img/main_01_01_Elon-Musk-candy-Wonka-hed.jpg");
+  background: url("assets/img/main_01_01_Elon-Musk-candy-Wonka-hed.jpg");
 }
 
 .grid-item .cover-2 {
@@ -317,7 +317,7 @@ section {
 }
 
 .grid-item .cover-3 {
-  background: url("/assets/img/main_03_01_header-image-macOS-big-sure-11.0.1.png");
+  background: url("assets/img/main_03_01_header-image-macOS-big-sure-11.0.1.png");
 }
 
 .grid-item .cover-4 {
@@ -378,39 +378,39 @@ section {
 }
 
 .cover-sub-heading-1 {
-  background: url("/assets/img/main_01_intelamd-368x276.jpg");
+  background: url("assets/img/main_01_intelamd-368x276.jpg");
 }
 
 .cover-sub-heading-2 {
-  background: url("/assets/img/main_02_Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
+  background: url("assets/img/main_02_Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
 }
 
 .cover-sub-heading-3 {
-  background: url("/assets/img/main_03_Snag_2a77832d-368x276.png");
+  background: url("assets/img/main_03_Snag_2a77832d-368x276.png");
 }
 
 .cover-sub-heading-4 {
-  background: url("/assets/img/main_04_image-7-6-368x276.png");
+  background: url("assets/img/main_04_image-7-6-368x276.png");
 }
 
 .cover-sub-heading-5 {
-  background: url("/assets/img/main_05.jpg");
+  background: url("assets/img/main_05.jpg");
 }
 
 .cover-sub-heading-6 {
-  background: url("/assets/img/main_06.png");
+  background: url("assets/img/main_06.png");
 }
 
 .cover-sub-heading-7 {
-  background: url("/assets/img/main_07.png");
+  background: url("assets/img/main_07.png");
 }
 
 .cover-sub-heading-8 {
-  background: url("/assets/img/main_08.jpg");
+  background: url("assets/img/main_08.jpg");
 }
 
 .cover-sub-heading-9 {
-  background: url("/assets/img/main_08.jpg");
+  background: url("assets/img/main_08.jpg");
 }
 
 
@@ -461,35 +461,35 @@ section {
 }
 
 .cover1 {
-  background: url("/assets/img/deals_01.jpg");
+  background: url("assets/img/deals_01.jpg");
 }
 
 .cover2 {
-  background: url("/assets/img/deals_02.jpg");
+  background: url("assets/img/deals_02.jpg");
 }
 
 .cover3 {
-  background: url("/assets/img/deals_03.jpg");
+  background: url("assets/img/deals_03.jpg");
 }
 
 .cover4 {
-  background: url("/assets/img/deals_04.jpg");
+  background: url("assets/img/deals_04.jpg");
 }
 
 .cover5 {
-  background: url("/assets/img/deals_05.jpg");
+  background: url("assets/img/deals_05.jpg");
 }
 
 .cover6 {
-  background: url("/assets/img/deals_06.png");
+  background: url("assets/img/deals_06.png");
 }
 
 .cover7 {
-  background: url("/assets/img/deals_07.jpg");
+  background: url("assets/img/deals_07.jpg");
 }
 
 .cover8 {
-  background: url("/assets/img/deals_08.jpg");
+  background: url("assets/img/deals_08.jpg");
 }
 
 .deals-container .grid-items .cover {
