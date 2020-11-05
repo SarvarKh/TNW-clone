@@ -565,6 +565,22 @@ footer ul li a {
   font-size: 12px;
 }
 
+.footer-rights .bold-logo {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% auto;
+  position: relative;
+  width: 96px;
+  height: 100%;
+  background-color: #000;
+  padding: 10px 20px;
+}
+
+.footer-rights img {
+  height: 12px;
+  margin-left: 5px;
+}
 
 @media only screen and (min-width: 600px) {
   .grid-item .cover {
@@ -763,5 +779,44 @@ footer ul li a {
     height: 170px;
     background-color: red;
     width: auto;
+  }
+}
+
+@media only screen and (min-width: 1100px) {
+  .heading-two .part-1, .heading-two .part-2 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .heading-grid .heading-one {
+    height: 100%;
+    background-size: 100% 100%;
+    margin: 0;
+  }
+
+  .latest-news .container {
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .latest-news {
+    margin: 50px 350px;
+  }
+
+  .latest-news .container .news-items > div {
+    height: 140px;
+  }
+
+  .funding {
+    margin: 50px 350px;
+  }
+
+  .topics {
+    margin: 50px 350px;
+  }
+
+  .latest-deals {
+    margin: 50px 350px;
   }
 }
