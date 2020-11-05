@@ -539,7 +539,7 @@ footer {
 }
 
 .footer-social-icons .icons ul li {
-  border: 0px solid black;
+  border: 0.1px solid black;
   background-color: rgb(71, 71, 71);
   border-radius: 50%;
   height: 35px;
@@ -599,45 +599,45 @@ footer {
     justify-content: space-between;
     background-color: #131313;
   }
-    
+  
   .nav-bottom-text ul {
     display: inline-flex;
   }
-  
+
   .nav-top nav ul {
     display: flex;
   }
-    
+  
   .nav-bottom-text ul li {
     margin: 0 10px;
     text-transform: uppercase;
   }
-  
+
   .nav-top nav ul li {
     margin: 5px 10px;
   }
-  
+
   .nav-top li a {
-    color: hsla(0, 0% , 100%, 0.6);
+    color: hsla(0, 0%, 100%, 0.6);
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
   }
-  
+
   .hidden {
     display: none;
   }
-  
+
   .nav-bottom {
     display: flex;
     justify-content: space-between;
     height: 48px;
     color: #aaa;
   }
-  
+
   .nav-bottom div {
     display: inline-flex;
   }
-  
+
   .logo-nav img {
     width: 106px;
     background-color: #000;
@@ -652,15 +652,15 @@ footer {
   .nav-bottom-text ul li a {
     color: #aaa;
   }
-  
+
   .nav-bottom-text ul li a:hover {
     color: #000;
   }
-  
+
   .nav-bottom-icon:hover {
     color: #000;
   }
-  
+
   .hidden:hover {
     display: block;
   }
@@ -680,7 +680,8 @@ footer {
     grid-column-gap: 10px;
   }
 
-  .heading-two .part-1, .heading-two .part-2 {
+  .heading-two .part-1,
+  .heading-two .part-2 {
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
@@ -709,8 +710,6 @@ footer {
   .heading > div {
     margin: 0;
   }
-
-
 
   /* Latest News */
   .latest-news .container {
@@ -768,7 +767,7 @@ footer {
     flex-direction: column;
   }
 
-  .deals-container .grid-items .cover  {
+  .deals-container .grid-items .cover {
     background-size: 100% 100%;
     height: 170px;
     background-color: red;
@@ -777,7 +776,8 @@ footer {
 }
 
 @media only screen and (min-width: 1100px) {
-  .heading-two .part-1, .heading-two .part-2 {
+  .heading-two .part-1,
+  .heading-two .part-2 {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: center;
