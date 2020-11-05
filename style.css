@@ -341,13 +341,13 @@ section {
 }
 
 .grid-item .cover-9 {
-  background: url("assets/img/main_08_01.jpg");
+  background: url("assets/img/main_09_01.jpeg");
 }
 
 .grid-item .cover {
   background-repeat: no-repeat;
   background-position: center;
-  background-size: auto auto;
+  background-size: auto 100%;
   height: 310px;
   position: relative;
 }
@@ -733,4 +733,35 @@ footer ul li a {
     display: none;
   }
 
+  /* Topics */
+  .topics .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .topics .grid-container .cover {
+    background-size: auto 100%;
+    height: 300px;
+  }
+
+
+  /* Latest deals */
+  .deals-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .deals-container .grid-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .deals-container .grid-items .cover  {
+    background-size: 100% 100%;
+    height: 170px;
+    background-color: red;
+    width: auto;
+  }
 }
