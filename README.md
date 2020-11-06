@@ -1,9 +1,8 @@
-# TNW-clone
-This is clone web-site of the TNW
 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# RESPONSIVE WEB DESIGN
+# TNW-clone | RESPONSIVE WEB DESIGN
+This is clone web-site of the The New Web
 
 ![screenshot](index.jpg)
 
