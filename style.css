@@ -779,6 +779,22 @@ footer {
   .deals-container {
     grid-template-columns: repeat(4, minmax(224px, 1fr));
   }
+
+  .latest-news {
+    margin: 50px 10%;
+  }
+
+  .funding {
+    margin: 50px 10%;
+  }
+
+  .topics {
+    margin: 50px 10%;
+  }
+
+  .latest-deals {
+    margin: 50px 10%;
+  }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -801,22 +817,26 @@ footer {
   }
 
   .latest-news {
-    margin: 50px 10%;
+    margin: 50px 15%;
   }
 
   .latest-news .container .news-items > div {
     height: 140px;
   }
 
+  .topics .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+
   .funding {
-    margin: 50px 10%;
+    margin: 50px 15%;
   }
 
   .topics {
-    margin: 50px 10%;
+    margin: 50px 15%;
   }
 
   .latest-deals {
-    margin: 50px 10%;
+    margin: 50px 15%;
   }
 }
