@@ -1,0 +1,838 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Oswald', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Navigation */
+header {
+  top: 0;
+  position: fixed;
+  z-index: 1;
+  background-color: white;
+  width: 100%;
+}
+
+.nav-top {
+  display: none;
+}
+
+.nav-bottom {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #aaa;
+  box-shadow: 1px 1px 5px grey;
+}
+
+.logo-nav {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% auto;
+  position: relative;
+  width: 96px;
+  height: 100%;
+  background-color: #000;
+  padding: 10px 20px;
+}
+
+.nav-bottom .nav-bottom-text {
+  display: none;
+}
+
+.nav-bottom-2 {
+  display: flex;
+}
+
+.nav-bottom-2-icon {
+  padding: 10px 20px;
+  border-left: 1px solid #aaa;
+}
+
+.fa-search {
+  color: #aaa;
+}
+
+.fa-bars {
+  color: #f42;
+}
+
+/* Main */
+main {
+  margin: 50px 15px 2px 15px;
+}
+
+/* Heading */
+.heading > div {
+  margin: 10px 0;
+}
+
+.heading-one {
+  background: url("assets/img/Heading_01_international-space-station-1176518_1920-796x529.jpg");
+}
+
+.heading-cover p {
+  color: grey;
+}
+
+.heading-cover p i {
+  margin-left: 10px;
+}
+
+.heading-two > div {
+  margin: 10px 0;
+}
+
+.heading-two .part-1 {
+  background: url("assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
+  background-size: 100% auto;
+}
+
+.latest-news h2 {
+  color: #f42;
+  padding: 10px 0;
+  font-size: 2rem;
+}
+
+.funding-top h2 {
+  margin: 20px 0;
+  font-size: 2rem;
+}
+
+.heading-two .part-1 h2 {
+  position: absolute;
+  height: 10%;
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  bottom: 5%;
+  left: 5%;
+}
+
+.heading-two .part-2 {
+  background: url("assets/img/Heading_03_tnw2020-feature_img-02.jpg");
+  background-size: 100% auto;
+}
+
+.heading-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% auto;
+  height: 300px;
+  position: relative;
+  color: #fff;
+}
+
+.heading .title {
+  position: absolute;
+  height: 30%;
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  bottom: 5%;
+  left: 5%;
+}
+
+/* Latest News */
+.news-cover-1 {
+  background: url("assets/img/news_01_image-9-3-516x270.png");
+}
+
+.news-cover-2 {
+  background: url("assets/img/news_02_800px-CSIRO_ScienceImage_408_Cotton_Bearing_Cotton_Plant-e1604052065746-512x270.jpg");
+}
+
+.news-cover-3 {
+  background: url("assets/img/news_03_crash-acronis-autonomous-car-ev-future-track-grassi-roborace-devbot-481x270.png");
+}
+
+.news-cover-4 {
+  background: url("assets/img/news_04_1-24-516x270.jpg");
+}
+
+.news-cover-5 {
+  background: url("assets/img/news_05_image-7-6-516x270.png");
+}
+
+.news-cover-6 {
+  background: url("assets/img/news_06_linkedin-linkedincels-byte-me-gq-516x270.png");
+}
+
+.news-cover-7 {
+  background: url("assets/img/news_07_Screenshot-2020-10-30-at-11.47.57-AM-e1604038778477-513x270.png");
+}
+
+.news-cover-8 {
+  background: url("assets/img/news_08_Snag_2a77832d-511x270.png");
+}
+
+.news-cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 75px 100%;
+  height: 75px;
+  position: relative;
+  grid-area: 1 / 1 / span 2 / span 1;
+}
+
+.news-items {
+  display: grid;
+  grid-template-columns: 1fr 6fr;
+  grid-column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.news-items p {
+  color: #aaa;
+  font-size: 12px;
+}
+
+/* Latest funding rounds on Index.co  */
+.funding {
+  margin: 25px 0;
+}
+
+.funding-top {
+  color: #f42;
+}
+
+.funding-top ul {
+  list-style-type: none;
+  margin: 10px 0;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.funding-top ul a {
+  text-decoration: none;
+  color: #f42;
+  font-weight: lighter;
+}
+
+.funding-top ul li {
+  margin: 5px 0;
+}
+
+.funding-bottom-item {
+  margin-bottom: 15px;
+}
+
+.funding-bottom-item .top {
+  position: relative;
+  display: block;
+}
+
+.top .logo-1 {
+  background: url("assets/img/index_01.jpg");
+}
+
+.top .logo-2 {
+  background: url("assets/img/index_02.jpg");
+}
+
+.top .logo-3 {
+  background: url("assets/img/index_03.jpg");
+}
+
+.top .logo-4 {
+  background: url("assets/img/index_04.jpg");
+}
+
+.top .funding-logo {
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  height: 60px;
+  width: 60px;
+  margin: 14px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.top h4 {
+  background-color: #f42;
+  color: #fff;
+  padding: 15px 0 15px 100px;
+}
+
+.top > :last-child {
+  background-color: rgba(255, 68, 34, 0.15);
+  padding: 15px 0 15px 100px;
+}
+
+.top h6 {
+  color: grey;
+}
+
+.middle {
+  background-color: rgba(255, 68, 34, 0.05);
+  display: grid;
+  grid-template-rows: auto auto;
+  padding: 20px;
+  font-size: 14px;
+  border-bottom: 1px solid #f42;
+}
+
+.middle span {
+  color: grey;
+}
+
+.bottom {
+  background-color: rgba(255, 68, 34, 0.05);
+  padding: 20px;
+  font-size: 14px;
+  color: grey;
+}
+
+/* Topics */
+.topics .grid-container {
+  margin-bottom: 50px;
+}
+
+.grid-item > h3 {
+  color: #f42;
+  font-size: 2rem;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.grid-item .cover-1 {
+  background: url("assets/img/main_01_01_Elon-Musk-candy-Wonka-hed.jpg");
+}
+
+.grid-item .cover-2 {
+  background: url("assets/img/main_02_01_Messenger-Image.jpg");
+}
+
+.grid-item .cover-3 {
+  background: url("assets/img/main_03_01_header-image-macOS-big-sure-11.0.1.png");
+}
+
+.grid-item .cover-4 {
+  background: url("assets/img/main_04_01.png");
+}
+
+.grid-item .cover-5 {
+  background: url("assets/img/main_05_01.png");
+}
+
+.grid-item .cover-6 {
+  background: url("assets/img/main_06_01.png");
+}
+
+.grid-item .cover-7 {
+  background: url("assets/img/main_07_01.png");
+}
+
+.grid-item .cover-8 {
+  background: url("assets/img/main_08_01.jpg");
+}
+
+.grid-item .cover-9 {
+  background: url("assets/img/main_09_01.jpeg");
+}
+
+.grid-item .cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 310px;
+  position: relative;
+}
+
+.cover-text {
+  position: absolute;
+  bottom: 20px;
+  color: #fff;
+  padding-left: 15px;
+}
+
+.gradient {
+  background: linear-gradient(rgba(250, 250, 250, 0.1), black);
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item-sub-heading {
+  background-color: rgba(255, 68, 34, 0.06);
+  display: flex;
+  justify-content: space-between;
+  color: #f42;
+  align-items: center;
+}
+
+.grid-item-sub-heading .text {
+  padding-left: 10px;
+}
+
+.cover-sub-heading-1 {
+  background: url("assets/img/main_01_intelamd-368x276.jpg");
+}
+
+.cover-sub-heading-2 {
+  background: url("assets/img/main_02_Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
+}
+
+.cover-sub-heading-3 {
+  background: url("assets/img/main_03_Snag_2a77832d-368x276.png");
+}
+
+.cover-sub-heading-4 {
+  background: url("assets/img/main_04_image-7-6-368x276.png");
+}
+
+.cover-sub-heading-5 {
+  background: url("assets/img/main_05.jpg");
+}
+
+.cover-sub-heading-6 {
+  background: url("assets/img/main_06.png");
+}
+
+.cover-sub-heading-7 {
+  background: url("assets/img/main_07.png");
+}
+
+.cover-sub-heading-8 {
+  background: url("assets/img/main_08.jpg");
+}
+
+.cover-sub-heading-9 {
+  background: url("assets/img/main_08.jpg");
+}
+
+.cover-sub-heading {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 96px;
+  width: 116px;
+  margin: 2px 0;
+}
+
+.grid-item-list ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  color: #f42;
+}
+
+.grid-item-list ul li {
+  border-bottom: 1px solid lightgray;
+  padding: 5px;
+}
+
+.grid-item-list ul li a {
+  color: grey;
+}
+
+/* Latest deals */
+.latest-deals .heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  color: #f42;
+  padding: 20px 0;
+  font-size: 1rem;
+}
+
+.latest-deals .heading h3 {
+  font-size: 14px;
+}
+
+.deals-container .grid-items {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-column-gap: 10px;
+  margin-bottom: 10px;
+}
+
+.cover1 {
+  background: url("assets/img/deals_01.jpg");
+}
+
+.cover2 {
+  background: url("assets/img/deals_02.jpg");
+}
+
+.cover3 {
+  background: url("assets/img/deals_03.jpg");
+}
+
+.cover4 {
+  background: url("assets/img/deals_04.jpg");
+}
+
+.cover5 {
+  background: url("assets/img/deals_05.jpg");
+}
+
+.cover6 {
+  background: url("assets/img/deals_06.png");
+}
+
+.cover7 {
+  background: url("assets/img/deals_07.jpg");
+}
+
+.cover8 {
+  background: url("assets/img/deals_08.jpg");
+}
+
+.deals-container .grid-items .cover {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+  height: 80px;
+  width: 80px;
+  grid-area: 1 / 1 / 2 span / 1 span;
+}
+
+.deals-container .grid-items p {
+  color: grey;
+}
+
+.strike-through {
+  text-decoration: line-through;
+}
+
+/* Footer */
+footer {
+  color: #aaa;
+}
+
+.footer-social-icons {
+  background-color: #131313e8;
+}
+
+.footer-social-icons .icons {
+  height: 90px;
+  padding-top: 42px;
+  padding-bottom: 22px;
+}
+
+.footer-social-icons > div ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-social-icons > div ul li {
+  text-align: center;
+  margin: 5px;
+}
+
+.footer-social-icons .icons ul li {
+  border: 0.1px solid black;
+  background-color: rgb(71, 71, 71);
+  border-radius: 50%;
+  height: 35px;
+  width: 35px;
+  font-size: larger;
+}
+
+.footer-social-icons .footer-social-icons-menu {
+  padding-bottom: 50px;
+  padding-top: 20px;
+}
+
+.footer-rights {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  font-size: 12px;
+}
+
+.footer-rights .bold-logo {
+  background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70% auto;
+  position: relative;
+  width: 96px;
+  height: 100%;
+  background-color: #000;
+  padding: 10px 20px;
+}
+
+.footer-rights img {
+  height: 12px;
+  margin-left: 5px;
+}
+
+@media only screen and (min-width: 576px) {
+  .grid-item .cover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto auto;
+    height: 450px;
+    position: relative;
+  }
+}
+
+/* Tablet screen */
+@media only screen and (min-width: 768px) {
+  .nav-top {
+    display: block;
+  }
+
+  .nav-top nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: #131313;
+  }
+
+  .nav-bottom-text ul {
+    display: inline-flex;
+  }
+
+  .nav-top nav ul {
+    display: flex;
+  }
+
+  .nav-bottom-text ul li {
+    margin: 0 10px;
+    text-transform: uppercase;
+  }
+
+  .nav-top nav ul li {
+    margin: 5px 10px;
+  }
+
+  .nav-top li a {
+    color: hsla(0, 0%, 100%, 0.6);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+  }
+
+  .hidden {
+    display: none;
+  }
+
+  .nav-bottom {
+    display: flex;
+    justify-content: space-between;
+    height: 48px;
+    color: #aaa;
+  }
+
+  .nav-bottom div {
+    display: inline-flex;
+  }
+
+  .logo-nav img {
+    width: 106px;
+    background-color: #000;
+    padding: 16px 20px;
+  }
+
+  .nav-bottom .nav-bottom-text {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-bottom-text ul li a {
+    color: #aaa;
+  }
+
+  .nav-bottom-text ul li a:hover {
+    color: #000;
+  }
+
+  .nav-bottom-icon:hover {
+    color: #000;
+  }
+
+  .hidden:hover {
+    display: block;
+  }
+
+  .nav-bottom-2 .nav-icon {
+    display: none;
+  }
+
+  /* Heading */
+  .heading {
+    margin-top: 90px;
+  }
+
+  .heading-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-column-gap: 10px;
+  }
+
+  .heading-two .part-1,
+  .heading-two .part-2 {
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+  }
+
+  .heading-grid .heading-one {
+    height: 100%;
+    background-size: auto 100%;
+    margin: 0;
+  }
+
+  .heading-two > div {
+    margin: 0;
+  }
+
+  .heading-one .title {
+    height: 10%;
+  }
+
+  .heading-grid .heading-two {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-row-gap: 10px;
+  }
+
+  .heading > div {
+    margin: 0;
+  }
+
+  /* Latest News */
+  .latest-news .container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
+    grid-gap: 10px;
+  }
+
+  .latest-news .container .news-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .funding-bottom div:nth-child(4) {
+    display: none;
+  }
+
+  .latest-news .container .news-items > div {
+    background-size: 100% 100%;
+    height: 170px;
+  }
+
+  /* Latest funding rounds on Index.co */
+  .funding .funding-top ul {
+    display: flex;
+  }
+
+  .funding-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+  }
+
+  /* Topics */
+  .topics .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .topics .grid-container .cover {
+    background-size: auto 100%;
+    height: 300px;
+  }
+
+  /* Latest deals */
+  .deals-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .deals-container .grid-items {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .deals-container .grid-items .cover {
+    background-size: 100% 100%;
+    height: 170px;
+    background-color: red;
+    width: auto;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .deals-container {
+    grid-template-columns: repeat(4, minmax(224px, 1fr));
+  }
+
+  .latest-news {
+    margin: 50px 10%;
+  }
+
+  .funding {
+    margin: 50px 10%;
+  }
+
+  .topics {
+    margin: 50px 10%;
+  }
+
+  .latest-deals {
+    margin: 50px 10%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .heading-two .part-1,
+  .heading-two .part-2 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+  }
+
+  .heading-grid .heading-one {
+    height: 100%;
+    background-size: 100% 100%;
+    margin: 0;
+  }
+
+  .latest-news .container {
+    grid-template-columns: repeat(auto-fill, minmax(270px, 1fr));
+    grid-gap: 20px;
+  }
+
+  .latest-news {
+    margin: 50px 15%;
+  }
+
+  .latest-news .container .news-items > div {
+    height: 140px;
+  }
+
+  .topics .grid-container {
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  }
+
+  .funding {
+    margin: 50px 15%;
+  }
+
+  .topics {
+    margin: 50px 15%;
+  }
+
+  .latest-deals {
+    margin: 50px 15%;
+  }
+}
