@@ -714,7 +714,7 @@ footer {
   /* Latest News */
   .latest-news .container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
     grid-gap: 10px;
   }
 
@@ -775,6 +775,12 @@ footer {
   }
 }
 
+@media only screen and (min-width: 950px) {
+  .deals-container {
+    grid-template-columns: repeat(4, minmax(224px, 1fr));
+  }
+}
+
 @media only screen and (min-width: 1100px) {
   .heading-two .part-1,
   .heading-two .part-2 {
@@ -795,7 +801,7 @@ footer {
   }
 
   .latest-news {
-    margin: 50px 350px;
+    margin: 50px 10%;
   }
 
   .latest-news .container .news-items > div {
@@ -803,14 +809,14 @@ footer {
   }
 
   .funding {
-    margin: 50px 350px;
+    margin: 50px 10%;
   }
 
   .topics {
-    margin: 50px 350px;
+    margin: 50px 10%;
   }
 
   .latest-deals {
-    margin: 50px 350px;
+    margin: 50px 10%;
   }
 }
