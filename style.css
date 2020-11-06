@@ -578,7 +578,7 @@ footer {
   margin-left: 5px;
 }
 
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 576px) {
   .grid-item .cover {
     background-repeat: no-repeat;
     background-position: center;
@@ -589,7 +589,7 @@ footer {
 }
 
 /* Tablet screen */
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
   .nav-top {
     display: block;
   }
@@ -775,13 +775,13 @@ footer {
   }
 }
 
-@media only screen and (min-width: 950px) {
+@media only screen and (min-width: 992px) {
   .deals-container {
     grid-template-columns: repeat(4, minmax(224px, 1fr));
   }
 }
 
-@media only screen and (min-width: 1100px) {
+@media only screen and (min-width: 1200px) {
   .heading-two .part-1,
   .heading-two .part-2 {
     background-repeat: no-repeat;
