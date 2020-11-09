@@ -1,26 +1,6 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-  font-family: 'Oswald', sans-serif;
-}
-
-ul {
-  list-style-type: none;
-}
-
-a {
-  text-decoration: none;
-}
-
-$light-text: #aaa;
-$background-icons: #131313e8;
-$background-white: #fff;
-$primary-color: #f42;
-$breakpoint-tablet: 768px;
-$breakpoint-desktop: 992px;
-$breakpoint-large-screen: 1200px;
-
+@import "reset";
+@import "variables";
+@import "mixins";
 
 //Navigation
 header {
@@ -60,7 +40,7 @@ header {
       .fa-search {
         color: $light-text;
       }
-      
+
       .fa-bars {
         color: $primary-color;
       }
@@ -76,9 +56,7 @@ main {
 //Heading
 .heading {
   .gradient {
-    background: linear-gradient(rgba(250, 250, 250, 0.1), black);
-    width: 100%;
-    height: 100%;
+    @include gradient;
   }
   .heading-cover {
     background-repeat: no-repeat;
@@ -132,7 +110,7 @@ main {
 .heading > div {
   margin: 10px 0;
 }
-  
+
 //Latest News
 .latest-news {
   h2 {
@@ -144,35 +122,35 @@ main {
   .news-cover-1 {
     background: url("assets/img/news_01_image-9-3-516x270.png");
   }
-  
+
   .news-cover-2 {
     background: url("assets/img/news_02_800px-CSIRO_ScienceImage_408_Cotton_Bearing_Cotton_Plant-e1604052065746-512x270.jpg");
   }
-  
+
   .news-cover-3 {
     background: url("assets/img/news_03_crash-acronis-autonomous-car-ev-future-track-grassi-roborace-devbot-481x270.png");
   }
-  
+
   .news-cover-4 {
     background: url("assets/img/news_04_1-24-516x270.jpg");
   }
-  
+
   .news-cover-5 {
     background: url("assets/img/news_05_image-7-6-516x270.png");
   }
-  
+
   .news-cover-6 {
     background: url("assets/img/news_06_linkedin-linkedincels-byte-me-gq-516x270.png");
   }
-  
+
   .news-cover-7 {
     background: url("assets/img/news_07_Screenshot-2020-10-30-at-11.47.57-AM-e1604038778477-513x270.png");
   }
-  
+
   .news-cover-8 {
     background: url("assets/img/news_08_Snag_2a77832d-511x270.png");
   }
-  
+
   .news-cover {
     background-repeat: no-repeat;
     background-position: center;
@@ -224,19 +202,19 @@ main {
       .logo-1 {
         background: url("assets/img/index_01.jpg");
       }
-      
+
       .logo-2 {
         background: url("assets/img/index_02.jpg");
       }
-      
+
       .logo-3 {
         background: url("assets/img/index_03.jpg");
       }
-      
+
       .logo-4 {
         background: url("assets/img/index_04.jpg");
       }
-      
+
       .funding-logo {
         background-repeat: no-repeat;
         background-size: auto 100%;
@@ -298,35 +276,35 @@ main {
     .cover-2 {
       background: url("assets/img/main_02_01_Messenger-Image.jpg");
     }
-    
+
     .cover-3 {
       background: url("assets/img/main_03_01_header-image-macOS-big-sure-11.0.1.png");
     }
-    
+
     .cover-4 {
       background: url("assets/img/main_04_01.png");
     }
-    
+
     .cover-5 {
       background: url("assets/img/main_05_01.png");
     }
-    
+
     .cover-6 {
       background: url("assets/img/main_06_01.png");
     }
-    
+
     .cover-7 {
       background: url("assets/img/main_07_01.png");
     }
-    
+
     .cover-8 {
       background: url("assets/img/main_08_01.jpg");
     }
-    
+
     .cover-9 {
       background: url("assets/img/main_09_01.jpeg");
     }
-    
+
     .cover {
       background-repeat: no-repeat;
       background-position: center;
@@ -334,9 +312,7 @@ main {
       height: 310px;
       position: relative;
       .gradient {
-        background: linear-gradient(rgba(250, 250, 250, 0.1), black);
-        width: 100%;
-        height: 100%;
+        @include gradient;
       }
       .cover-text {
         position: absolute;
@@ -369,39 +345,39 @@ main {
       .cover-sub-heading-1 {
         background: url("assets/img/main_01_intelamd-368x276.jpg");
       }
-      
+
       .cover-sub-heading-2 {
         background: url("assets/img/main_02_Netflix-Blur-vibration-haptic-feedback-project-rumble-pak-368x276.jpg");
       }
-      
+
       .cover-sub-heading-3 {
         background: url("assets/img/main_03_Snag_2a77832d-368x276.png");
       }
-      
+
       .cover-sub-heading-4 {
         background: url("assets/img/main_04_image-7-6-368x276.png");
       }
-      
+
       .cover-sub-heading-5 {
         background: url("assets/img/main_05.jpg");
       }
-      
+
       .cover-sub-heading-6 {
         background: url("assets/img/main_06.png");
       }
-      
+
       .cover-sub-heading-7 {
         background: url("assets/img/main_07.png");
       }
-      
+
       .cover-sub-heading-8 {
         background: url("assets/img/main_08.jpg");
       }
-      
+
       .cover-sub-heading-9 {
         background: url("assets/img/main_08.jpg");
       }
-      
+
       .cover-sub-heading {
         background-repeat: no-repeat;
         background-position: center;
@@ -442,31 +418,31 @@ main {
       .cover1 {
         background: url("assets/img/deals_01.jpg");
       }
-      
+
       .cover2 {
         background: url("assets/img/deals_02.jpg");
       }
-      
+
       .cover3 {
         background: url("assets/img/deals_03.jpg");
       }
-      
+
       .cover4 {
         background: url("assets/img/deals_04.jpg");
       }
-      
+
       .cover5 {
         background: url("assets/img/deals_05.jpg");
       }
-      
+
       .cover6 {
         background: url("assets/img/deals_06.png");
       }
-      
+
       .cover7 {
         background: url("assets/img/deals_07.jpg");
       }
-      
+
       .cover8 {
         background: url("assets/img/deals_08.jpg");
       }
@@ -572,7 +548,7 @@ footer {
       }
       li a {
         color: hsla(0, 0%, 100%, 0.6);
-        font-family: 'Source Sans Pro', sans-serif;
+        font-family: "Source Sans Pro", sans-serif;
         font-weight: bold;
       }
     }
@@ -603,20 +579,20 @@ footer {
         color: #000;
       }
     }
-  
+
     .logo-nav img {
       width: 106px;
       background-color: #000;
       padding: 16px 20px;
     }
-  
+
     .hidden {
       display: none;
       :hover {
         display: block;
       }
     }
-  
+
     .nav-bottom-2 .nav-icon {
       display: none;
     }
@@ -740,7 +716,7 @@ footer {
   .latest-deals {
     margin: 50px 10%;
   }
-} 
+}
 
 @media only screen and (min-width: $breakpoint-large-screen) {
   .heading {
@@ -748,13 +724,13 @@ footer {
       .heading-two {
         .part-1,
         .part-2 {
-        background-repeat: no-repeat;
-        background-size: 100% auto;
-        background-position: center;
+          background-repeat: no-repeat;
+          background-size: 100% auto;
+          background-position: center;
         }
+      }
     }
-    }
-  
+
     .heading-grid .heading-one {
       height: 100%;
       background-size: 100% 100%;

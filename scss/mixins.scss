@@ -1,0 +1,5 @@
+@mixin gradient {
+  background: linear-gradient(rgba(250, 250, 250, 0.1), black);
+  width: 100%;
+  height: 100%;
+}
