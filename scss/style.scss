@@ -128,7 +128,6 @@ main {
   }
 }
 
-
 //Latest News
 .latest-news {
   h2 {
@@ -293,7 +292,6 @@ main {
 
 //Topics
 .topics {
-
   .grid-container {
     margin-bottom: 50px;
   }
@@ -306,7 +304,6 @@ main {
   }
 
   .grid-item {
-
     .cover-1 {
       background: url("assets/img/main_01_01_Elon-Musk-candy-Wonka-hed.jpg");
     }
@@ -438,7 +435,6 @@ main {
 
 //Latest deals
 .latest-deals {
-
   .heading {
     display: flex;
     justify-content: space-between;
@@ -453,7 +449,6 @@ main {
   }
 
   .deals-container {
-
     .grid-items {
       display: grid;
       grid-template-columns: 1fr 5fr;
@@ -597,7 +592,6 @@ footer {
 @media (min-width: $breakpoint-tablet) {
   //navigation bar
   header {
-
     .nav-top {
       display: block;
 
@@ -633,7 +627,6 @@ footer {
       }
 
       .nav-bottom-text {
-
         ul {
           display: inline-flex;
 
@@ -717,7 +710,6 @@ footer {
 
 //Latest News
 .latest-news {
-
   .container {
     display: grid;
     grid-template-columns: repeat(3, minmax(260px, 1fr));
@@ -752,7 +744,6 @@ footer {
 
 //Topics
 .topics {
-
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

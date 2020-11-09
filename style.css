@@ -697,65 +697,65 @@ footer .footer-rights img {
   .heading .heading-grid .heading-two > div {
     margin: 0;
   }
-}
 
-.latest-news .container {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(260px, 1fr));
-  grid-gap: 10px;
-}
+  .latest-news .container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(260px, 1fr));
+    grid-gap: 10px;
+  }
 
-.latest-news .container .news-items {
-  display: flex;
-  flex-direction: column;
-}
+  .latest-news .container .news-items {
+    display: flex;
+    flex-direction: column;
+  }
 
-.funding-bottom div:nth-child(4) {
-  display: none;
-}
+  .funding-bottom div:nth-child(4) {
+    display: none;
+  }
 
-.latest-news .container .news-items > div {
-  background-size: 100% 100%;
-  height: 170px;
-}
+  .latest-news .container .news-items > div {
+    background-size: 100% 100%;
+    height: 170px;
+  }
 
-article .funding-top ul {
-  display: flex;
-}
+  .funding .funding-top ul {
+    display: flex;
+  }
 
-.funding-bottom {
-  display: grid;
-  grid-template-columns: repeat(3, auto);
-  grid-gap: 10px;
-}
+  .funding-bottom {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 10px;
+  }
 
-main .topics .grid-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  grid-gap: 20px;
-}
+  main .topics .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
 
-main .topics .grid-container .cover {
-  background-size: auto 100%;
-  height: 300px;
-}
+  .for-linters .grid-container .cover {
+    background-size: auto 100%;
+    height: 300px;
+  }
 
-.deals-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  grid-gap: 20px;
-}
+  .deals-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-gap: 20px;
+  }
 
-main .latest-deals .deals-container .grid-items {
-  display: flex;
-  flex-direction: column;
-}
+  main .latest-deals .deals-container .grid-items {
+    display: flex;
+    flex-direction: column;
+  }
 
-main .latest-deals .deals-container .grid-items .cover {
-  background-size: 100% 100%;
-  height: 170px;
-  background-color: red;
-  width: auto;
+  main .latest-deals .deals-container .grid-items .cover {
+    background-size: 100% 100%;
+    height: 170px;
+    background-color: red;
+    width: auto;
+  }
 }
 
 @media only screen and (min-width: 992px) {
