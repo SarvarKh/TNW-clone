@@ -160,6 +160,7 @@ main {
 .latest-news .news-cover-4 {
   background: url("assets/img/news_04_1-24-516x270.jpg");
 }
+
 .latest-news .news-cover-5 {
   background: url("assets/img/news_05_image-7-6-516x270.png");
 }
@@ -318,6 +319,7 @@ footer .footer-social-icons a {
   padding: 10px;
   font-weight: bold;
 }
+
 .topics .grid-item .cover-1 {
   background: url("assets/img/main_01_01_Elon-Musk-candy-Wonka-hed.jpg");
 }
@@ -684,9 +686,9 @@ footer .footer-rights img {
     grid-template-rows: auto auto;
     grid-row-gap: 10px;
   }
-  
+
   .heading .heading-grid .heading-two .part-1,
-.heading .heading-grid .heading-two .part-2 {
+  .heading .heading-grid .heading-two .part-2 {
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: center;
@@ -708,6 +710,10 @@ footer .footer-rights img {
   flex-direction: column;
 }
 
+.funding-bottom div:nth-child(4) {
+  display: none;
+}
+
 .latest-news .container .news-items > div {
   background-size: 100% 100%;
   height: 170px;
@@ -721,10 +727,6 @@ footer .footer-rights img {
   display: grid;
   grid-template-columns: repeat(3, auto);
   grid-gap: 10px;
-}
-
-.funding-bottom div:nth-child(4) {
-  display: none;
 }
 
 .topics .grid-container {
@@ -744,12 +746,12 @@ footer .footer-rights img {
   grid-gap: 20px;
 }
 
-.deals-container .grid-items {
+.latest-deals .deals-container .grid-items {
   display: flex;
   flex-direction: column;
 }
 
-.deals-container .grid-items .cover {
+.latest-deals .deals-container .grid-items .cover {
   background-size: 100% 100%;
   height: 170px;
   background-color: red;
@@ -780,12 +782,12 @@ footer .footer-rights img {
 
 @media only screen and (min-width: 1200px) {
   .heading .heading-grid .heading-two .part-1,
-.heading .heading-grid .heading-two .part-2 {
+  .heading .heading-grid .heading-two .part-2 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-position: center;
   }
-  
+
   .heading .heading-grid .heading-one {
     height: 100%;
     background-size: 100% 100%;

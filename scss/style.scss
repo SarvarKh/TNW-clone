@@ -9,14 +9,17 @@ header {
   z-index: 1;
   background-color: $background-white;
   width: 100%;
+
   .nav-top {
     display: none;
   }
+
   .nav-bottom {
     display: flex;
     justify-content: space-between;
     border-bottom: 1px solid $light-text;
     box-shadow: 1px 1px 5px $light-text;
+
     .logo-nav {
       background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
       background-repeat: no-repeat;
@@ -28,15 +31,19 @@ header {
       background-color: #000;
       padding: 10px 20px;
     }
+
     .nav-bottom-text {
       display: none;
     }
+
     .nav-bottom-2 {
       display: flex;
+
       .nav-bottom-2-icon {
         padding: 10px 20px;
         border-left: 1px solid $light-text;
       }
+
       .fa-search {
         color: $light-text;
       }
@@ -55,9 +62,11 @@ main {
 
 //Heading
 .heading {
+
   .gradient {
     @include gradient;
   }
+
   .heading-cover {
     background-repeat: no-repeat;
     background-position: center;
@@ -65,13 +74,16 @@ main {
     height: 300px;
     position: relative;
     color: $background-white;
+
     p {
       color: $light-text;
+
       i {
         margin-left: 10px;
       }
     }
   }
+
   .title {
     position: absolute;
     height: 30%;
@@ -81,13 +93,17 @@ main {
     bottom: 5%;
     left: 5%;
   }
+
   .heading-one {
     background: url("assets/img/Heading_01_international-space-station-1176518_1920-796x529.jpg");
   }
+
   .heading-two {
+
     .part-1 {
       background: url("assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
       background-size: 100% auto;
+
       h2 {
         position: absolute;
         height: 10%;
@@ -98,21 +114,25 @@ main {
         left: 5%;
       }
     }
+
     .part-2 {
       background: url("assets/img/Heading_03_tnw2020-feature_img-02.jpg");
       background-size: 100% auto;
     }
   }
+
   .heading-two > div {
     margin: 10px 0;
   }
 }
+
 .heading > div {
   margin: 10px 0;
 }
 
 //Latest News
 .latest-news {
+
   h2 {
     color: $primary-color;
     padding: 10px 0;
@@ -165,6 +185,7 @@ main {
     grid-template-columns: 1fr 6fr;
     grid-column-gap: 10px;
     margin-bottom: 10px;
+
     p {
       color: $light-text;
       font-size: 12px;
@@ -175,18 +196,23 @@ main {
 //Latest funding rounds on Index.co
 .funding {
   margin: 25px 0;
+
   .funding-top {
     color: #f42;
+
     h2 {
       margin: 20px 0;
       font-size: 2rem;
     }
+
     ul {
       list-style-type: none;
       margin: 10px 0;
+
       li {
         margin: 5px 0;
       }
+
       a {
         text-decoration: none;
         color: #f42;
@@ -194,11 +220,14 @@ main {
       }
     }
   }
+
   .funding-bottom-item {
     margin-bottom: 15px;
+
     .top {
       position: relative;
       display: block;
+
       .logo-1 {
         background: url("assets/img/index_01.jpg");
       }
@@ -225,20 +254,24 @@ main {
         top: 0;
         left: 0;
       }
+
       h4 {
         background-color: $primary-color;
         color: $background-white;
         padding: 15px 0 15px 100px;
       }
+
       h6 {
         color: $light-text;
       }
     }
+
     .top > :last-child {
       background-color: rgba(255, 68, 34, 0.15);
       padding: 15px 0 15px 100px;
     }
   }
+
   .middle {
     background-color: rgba(255, 68, 34, 0.05);
     display: grid;
@@ -246,10 +279,12 @@ main {
     padding: 20px;
     font-size: 14px;
     border-bottom: 1px solid $primary-color;
+
     span {
       color: $light-text;
     }
   }
+
   .bottom {
     background-color: rgba(255, 68, 34, 0.05);
     padding: 20px;
@@ -260,19 +295,24 @@ main {
 
 //Topics
 .topics {
+
   .grid-container {
     margin-bottom: 50px;
   }
+
   .grid-item > h3 {
     color: #f42;
     font-size: 2rem;
     padding: 10px;
     font-weight: bold;
   }
+
   .grid-item {
+
     .cover-1 {
       background: url("assets/img/main_01_01_Elon-Musk-candy-Wonka-hed.jpg");
     }
+
     .cover-2 {
       background: url("assets/img/main_02_01_Messenger-Image.jpg");
     }
@@ -311,9 +351,11 @@ main {
       background-size: auto 100%;
       height: 310px;
       position: relative;
+
       .gradient {
         @include gradient;
       }
+
       .cover-text {
         position: absolute;
         bottom: 20px;
@@ -321,27 +363,33 @@ main {
         padding-left: 15px;
       }
     }
+
     ul {
       list-style-type: disc;
       padding-left: 20px;
       color: $primary-color;
+
       li {
         border-bottom: 1px solid lightgray;
         padding: 5px;
+
         a {
           color: grey;
         }
       }
     }
+
     .grid-item-sub-heading {
       background-color: rgba(255, 68, 34, 0.06);
       display: flex;
       justify-content: space-between;
       color: $primary-color;
       align-items: center;
+
       .text {
         padding-left: 10px;
       }
+
       .cover-sub-heading-1 {
         background: url("assets/img/main_01_intelamd-368x276.jpg");
       }
@@ -392,6 +440,7 @@ main {
 
 //Latest deals
 .latest-deals {
+
   .heading {
     display: flex;
     justify-content: space-between;
@@ -399,22 +448,28 @@ main {
     color: #f42;
     padding: 20px 0;
     font-size: 1rem;
+
     h3 {
       font-size: 14px;
     }
   }
+
   .deals-container {
+
     .grid-items {
       display: grid;
       grid-template-columns: 1fr 5fr;
       grid-column-gap: 10px;
       margin-bottom: 10px;
+
       p {
         color: $light-text;
       }
+
       .strike-through {
         text-decoration: line-through;
       }
+
       .cover1 {
         background: url("assets/img/deals_01.jpg");
       }
@@ -446,6 +501,7 @@ main {
       .cover8 {
         background: url("assets/img/deals_08.jpg");
       }
+
       .cover {
         background-repeat: no-repeat;
         background-position: center;
@@ -461,12 +517,15 @@ main {
 //Footer
 footer {
   color: $light-text;
+
   .footer-social-icons {
     background-color: #131313e8;
+
     .icons {
       height: 90px;
       padding-top: 42px;
       padding-bottom: 22px;
+
       ul li {
         border: 0.1px solid black;
         background-color: rgb(71, 71, 71);
@@ -476,25 +535,30 @@ footer {
         font-size: larger;
       }
     }
+
     .footer-social-icons-menu {
       padding-bottom: 50px;
       padding-top: 20px;
     }
+
     a {
       text-decoration: none;
       color: #fff;
     }
   }
+
   .footer-social-icons > div ul {
     list-style-type: none;
     display: flex;
     justify-content: center;
     align-items: center;
+
     li {
       text-align: center;
       margin: 5px;
     }
   }
+
   .footer-rights {
     background-color: #000;
     display: flex;
@@ -502,6 +566,7 @@ footer {
     align-items: center;
     padding: 40px;
     font-size: 12px;
+
     .bold-logo {
       background: url("https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg");
       background-repeat: no-repeat;
@@ -513,6 +578,7 @@ footer {
       background-color: #000;
       padding: 10px 20px;
     }
+
     img {
       height: 12px;
       margin-left: 5px;
@@ -533,39 +599,50 @@ footer {
 @media (min-width: $breakpoint-tablet) {
   //navigation bar
   header {
+
     .nav-top {
       display: block;
+
       nav {
         display: flex;
         justify-content: space-between;
         background-color: #131313;
+
         ul li {
           margin: 5px 10px;
         }
+
         ul {
           display: flex;
         }
       }
+
       li a {
         color: hsla(0, 0%, 100%, 0.6);
         font-family: "Source Sans Pro", sans-serif;
         font-weight: bold;
       }
     }
+
     .nav-bottom {
       display: flex;
       justify-content: space-between;
       height: 48px;
       color: #aaa;
+
       div {
         display: inline-flex;
       }
+
       .nav-bottom-text {
+
         ul {
           display: inline-flex;
+
           li {
             margin: 0 10px;
             text-transform: uppercase;
+
             a {
               color: #aaa;
               :hover {
@@ -575,6 +652,7 @@ footer {
           }
         }
       }
+
       .nav-bottom-icon:hover {
         color: #000;
       }
@@ -601,10 +679,12 @@ footer {
   //heading
   .heading {
     margin-top: 90px;
+
     .heading-grid {
       display: grid;
       grid-template-columns: 2fr 1fr;
       grid-column-gap: 10px;
+
       .heading-one {
         height: 100%;
         background-size: auto 100%;
@@ -617,6 +697,7 @@ footer {
         display: grid;
         grid-template-rows: auto auto;
         grid-row-gap: 10px;
+
         .part-1,
         .part-2 {
           background-repeat: no-repeat;
@@ -624,11 +705,13 @@ footer {
           background-position: center;
         }
       }
+
       .heading-two > div {
         margin: 0;
       }
     }
   }
+
   .heading > div {
     margin: 0;
   }
@@ -636,14 +719,17 @@ footer {
 
 //Latest News
 .latest-news {
+
   .container {
     display: grid;
     grid-template-columns: repeat(3, minmax(260px, 1fr));
     grid-gap: 10px;
+
     .news-items {
       display: flex;
       flex-direction: column;
     }
+
     .news-items > div {
       background-size: 100% 100%;
       height: 170px;
@@ -668,10 +754,12 @@ footer {
 
 //Topics
 .topics {
+
   .grid-container {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
+
     .cover {
       background-size: auto 100%;
       height: 300px;
@@ -684,9 +772,11 @@ footer {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
   grid-gap: 20px;
+
   .grid-items {
     display: flex;
     flex-direction: column;
+    
     .cover {
       background-size: 100% 100%;
       height: 170px;
