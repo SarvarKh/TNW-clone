@@ -61,8 +61,11 @@ main {
 }
 
 //Heading
-.heading {
+.heading > div {
+  margin: 10px 0;
+}
 
+.heading {
   .gradient {
     @include gradient;
   }
@@ -99,7 +102,6 @@ main {
   }
 
   .heading-two {
-
     .part-1 {
       background: url("assets/img/Heading_02_nissan-leaf-batteries-recycle-recondition-science-warwick-university-wmg-796x447.jpg");
       background-size: 100% auto;
@@ -126,13 +128,9 @@ main {
   }
 }
 
-.heading > div {
-  margin: 10px 0;
-}
 
 //Latest News
 .latest-news {
-
   h2 {
     color: $primary-color;
     padding: 10px 0;
@@ -776,7 +774,7 @@ footer {
   .grid-items {
     display: flex;
     flex-direction: column;
-    
+
     .cover {
       background-size: 100% 100%;
       height: 170px;
