@@ -622,7 +622,7 @@ footer .footer-rights img {
     display: inline-flex;
   }
 
-  header .nav-bottom .nav-bottom-text ul {
+  .nav-bottom-text ul {
     display: inline-flex;
   }
 
@@ -694,7 +694,11 @@ footer .footer-rights img {
     background-position: center;
   }
 
-  .heading .heading-grid .heading-two > div {
+  .funding-bottom div:nth-child(4) {
+    display: none;
+  }
+
+  .heading-two > div {
     margin: 0;
   }
 
@@ -707,10 +711,6 @@ footer .footer-rights img {
   .latest-news .container .news-items {
     display: flex;
     flex-direction: column;
-  }
-
-  .funding-bottom div:nth-child(4) {
-    display: none;
   }
 
   .latest-news .container .news-items > div {
