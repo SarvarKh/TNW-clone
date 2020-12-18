@@ -6,6 +6,9 @@ This is clone web-site of the The New Web
 
 ![screenshot](index.jpg)
 
+## Live Demo
+ - [Main page](https://htmlpreview.github.io/?https://github.com/SarvarKh/TNW-clone/blob/master/index.html)
+ 
 Additional description about the project and its features.
 
 ## Built With
